@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    background-image:url("999.jpg");
+    margin:0px;
+}
+
+.head 
+{
+    font-family:"Saint";
+    font-size:40px;
+    /* color:#22ff09; */
+    margin-left:50px;
+    font-weight: bold;
+    background-image: linear-gradient(180deg,rgb(38, 255, 0),rgb(217, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#banner
+{
+    width:99.5%;
+    height:100px;
+    border:2px ;
+    border-radius: 20px;
+    background-color:rgba(14, 13, 13, 0.7);
+    box-shadow:0px 0px 30px #2500cb;
+    
+}
+.clg
+{
+    font-family:"Saint";
+    font-size:30px;
+    color: rgb(237, 12, 229);
+    font-weight: bold;
+}
+#wrapper
+{
+    width:50%;
+    border-radius:10px;
+    border:2px ; 
+    background-color:rgba(58, 47, 47, 0.7);
+    box-shadow:0px 0px 30px #2c00cb;
+}
+.SubHead
+{
+    font-family:"Saint";
+    color:whitesmoke;
+    font-size:30px;
+    font-weight: bolder;
+}
+.labels
+{
+    font-family:"Saint";
+    font-size:20px;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+}
+.fields
+{
+    font-family:"Saint";
+    font-size:20px;
+    font-weight: bolder;
+    color:rgb(250, 250, 250);
+    border-radius:20px;
+    padding:4px 6px;
+    border:2.5px solid rgb(51, 146, 255);
+    background-color: transparent;
+    
+}
+
+.table
+{
+    border-radius:20px;
+    padding:0px 5px;
+    border:2.5px solid rgb(51, 102, 255);
+    background-color:transparent;
+    box-shadow:0px 0px 30px #2c00cb;
+}
+a.link:link{font-family:"Saint";font-size:20px;font-weight:bolder; color:#f5f4f9;text-decoration:none;border-radius:20px;
+    padding:4px 6px;box-shadow:0px 0px 20px #cb0000;}
+a.link:active{font-family:"Saint";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:visited{font-family:"Saint";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:hover{font-family:"Saint";font-size:20px;color: silver;text-decoration:none;}
+.msg
+{
+    font-family:"Saint";
+    color:#6F6;
+    font-size:13px;
+}
+a.Command:link{text-decoration:none;font-family:"Saint";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(0, 26, 255);border-radius:5px;}
+a.Command:active{text-decoration:none;font-family:"Saint";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(0, 42, 255);border-radius:5px;}
+a.Command:visited{text-decoration:none;font-family:"Saint";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid rgb(0, 55, 255);border-radius:5px;}
+a.Command:hover{text-decoration:none;font-family:"Saint";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #F60;border-radius:5px;box-shadow:0px 0px 10px #FFFFFF;}
+
+.fields:hover{cursor: pointer; color: silver;}
